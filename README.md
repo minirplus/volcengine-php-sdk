@@ -1,4 +1,5 @@
 # Volcengine SDK for PHP
+set require guzzle to 7
 
 ## Requirements
 
@@ -10,11 +11,7 @@ PHP 5.5 and later
 To install the bindings via [Composer](http://getcomposer.org/), add the following to `composer.json`:
 
 ```
-{
-  "require": {
-    "volcengine/volcengine-php-sdk": "v1.0.47"
-  }
-}
+composer require minirplus/volcengine-php-sdk
 ```
 
 Then run `composer install`
